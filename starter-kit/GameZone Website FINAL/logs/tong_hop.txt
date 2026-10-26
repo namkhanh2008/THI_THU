@@ -1,0 +1,5 @@
+=== TONG HOP LOG GAMEZONE ===
+PS D:\de-on-tap-game\starter-kit\GameZone Website FINAL\logs> (Get-Content .\game.log | Select-String "WARNING").COUNT
+1
+(Get-Content .\game.log | Select-String "ERROR").COUNT
+6
